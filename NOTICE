@@ -1,0 +1,10 @@
+PLI Labs — dsv41-longctx-bench-tools
+Copyright 2026 Proprietary Legal Intelligence LLC
+
+PLI Labs implementation and tests: Apache-2.0; full text: LICENSES/Apache-2.0.txt.
+
+No third-party source or upstream patch set is included in code/bench, code/roundtrip, code/kvpack or code/bench.py. The original and extended drivers share PLI Labs workload builders.
+
+External dependencies, not bundled: Python, ofl transport/header (Apache-2.0, https://github.com/ProprietaryLegal/ofl-rdma-transport), libibverbs/rdma-core, perftest, iperf3 and sysstat. Their own terms apply. User-supplied public CourtListener opinion/RECAP text is benchmark input; this software licence does not license source documents.
+
+DeepSeek, HeNryous, sudoingX, vLLM and turboderp/exllamav3 supply the separately obtained model, image, recipe and serving runtime used in the measured system. Their engines, kernels and weights are not included in this package.
