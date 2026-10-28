@@ -16,6 +16,12 @@ Measure request timing, speculative decoding, concurrent long prompts and direct
 
 <!-- pli:update:2026-10-27:end -->
 
+<!-- pli:update:2026-10-28:start -->
+
+**Update 2026-10-28:** the workload instructions and the synthetic-record vocabulary of `code/bench.py` and `code/bench/bench2.py` are no longer in the code. Put them in a JSON file with the keys `workloads`, `first`, `last`, `places`, `verbs`, `claims` and `paragraph` (format in the header of `code/bench/bench2.py`) and name it in `DSV41_BENCH_SPEC_FILE`. The drivers and their output are otherwise unchanged.
+
+<!-- pli:update:2026-10-28:end -->
+
 
 ## Status
 
